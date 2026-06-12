@@ -1,0 +1,18 @@
+{
+  "name": "tarea2MultimediosC26655",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src/",
+    "dev": "servor src/ index.html 1234 --reload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.32.1",
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}
