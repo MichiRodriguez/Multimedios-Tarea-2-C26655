@@ -11,6 +11,19 @@ db.exec(sql)
 
 const mundiales = [
   {
+    nombre:      "Copa Mundial Corea-Japón 2002",
+    anio:        2002,
+    sede:        "Corea del Sur / Japón",
+    campeon:     "Brasil",
+    subcampeon:  "Alemania",
+    goleador:    "Ronaldo",
+    equipos:     32,
+    imagen:      "corea-japon-2002.svg",
+    slug:        "corea-japon-2002",
+    resumen:     "Brasil conquista su quinto titulo con Ronaldo como figura indiscutible.",
+    descripcion: "Primer Mundial co-organizado por dos paises y el primero celebrado en Asia; Brasil vencio 2-0 a Alemania en la final.",
+  },
+  {
     nombre:      "Copa Mundial Alemania 2006",
     anio:        2006,
     sede:        "Alemania",
