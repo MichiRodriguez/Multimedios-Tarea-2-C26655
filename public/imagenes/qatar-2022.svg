@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <rect width="320" height="320" fill="#1a1a1a"/>
+  <rect x="20" y="20" width="280" height="280" rx="12" fill="#8D1B3D"/>
+  <polygon points="20,20 110,20 82,160 110,300 20,300" fill="#fff"/>
+  <circle cx="185" cy="148" r="52" fill="none" stroke="#C8A951" stroke-width="3"/>
+  <circle cx="185" cy="148" r="38" fill="#6B1330"/>
+  <text x="185" y="156" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#C8A951" text-anchor="middle">⚽</text>
+  <text x="175" y="238" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#C8A951" text-anchor="middle">QATAR 2022</text>
+  <text x="175" y="261" font-family="Arial,sans-serif" font-size="12" fill="#eee" text-anchor="middle">FIFA WORLD CUP</text>
+</svg>
