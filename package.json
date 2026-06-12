@@ -1,18 +1,31 @@
 {
   "name": "tarea2MultimediosC26655",
   "version": "1.0.0",
-  "description": "",
+  "description": "API REST Copa Mundial FIFA - Tarea 2 Multimedios C26655",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d src/",
-    "dev": "servor src/ index.html 1234 --reload",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node data/createdb.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "sqlite",
+    "fifa",
+    "mundial"
+  ],
+  "author": "Michelle Rodriguez",
   "license": "ISC",
   "packageManager": "pnpm@10.32.1",
   "dependencies": {
-    "servor": "^4.0.2"
+    "express": "^4.21.2",
+    "sql.js": "^1.14.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
